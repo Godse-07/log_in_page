@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up page</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="about-us">
+      <h2>About Us</h2>
+      <img src="a-fotor-bg-remover-2023062220753.png" alt="Mail">
+      <p><span id="element"></span></p>
+    </div>
+    <div class="signup-form">
+      <h2>Log in page</h2>
+      <form action="#">
+        <!-- Sign-up form code here -->
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name" required>
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email" required>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Create password" required>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Confirm password" required>
+        </div>
+        <div class="input-box">
+          <label for="Gender">Choose a gender:</label>
+              <select name="gender" id="gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              </select>
+        </div>
+        <div class="policy">
+          <input type="checkbox" id="terms" required>
+          <label for="terms">I accept all terms &amp; conditions</label>
+        </div>
+        <div class="input-box button">
+          <input type="submit" value="LOG IN NOW">
+        </div>
+      </form>
+    </div>
+  </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+            var typed = new Typed('#element', {
+                strings: ["Now connect anyone from anywhere"],
+            typeSpeed: 70,
+    });
+  
+    </script>
+</body>
+
+</html>
